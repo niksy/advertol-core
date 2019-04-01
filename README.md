@@ -119,10 +119,10 @@ For automated tests, run `npm run test:automated` (append `:watch` for watcher s
 
 MIT © [Ivan Nikolić](http://ivannikolic.com)
 
-[ci]: https://travis-ci.com/niksy/advertol
-[ci-img]: https://travis-ci.com/niksy/advertol.svg?branch=master
+[ci]: https://travis-ci.com/niksy/advertol-core
+[ci-img]: https://travis-ci.com/niksy/advertol-core.svg?branch=master
 [browserstack]: https://www.browserstack.com/
-[browserstack-img]: https://www.browserstack.com/automate/badge.svg?badge_key=MXdvSXc0TVVSUG1lQWlCV25Sc0xlTlYvRTdzaFVNM09JRXNXYStGSytQND0tLUs4OUVYWkFEY3JNZDJmMlBIeTdnV0E9PQ==--f371818440411f6e9a295345dc5ee488fce79ce1
+[browserstack-img]: https://www.browserstack.com/automate/badge.svg?badge_key=
 [service]: https://github.com/niksy/advertol/docs/service.md
 [control]: https://github.com/niksy/advertol/docs/control.md
 [context]: https://github.com/niksy/advertol/docs/context.md
