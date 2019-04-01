@@ -122,7 +122,7 @@ MIT © [Ivan Nikolić](http://ivannikolic.com)
 [ci]: https://travis-ci.com/niksy/advertol-core
 [ci-img]: https://travis-ci.com/niksy/advertol-core.svg?branch=master
 [browserstack]: https://www.browserstack.com/
-[browserstack-img]: https://www.browserstack.com/automate/badge.svg?badge_key=
+[browserstack-img]: https://www.browserstack.com/automate/badge.svg?badge_key=YWxaem45M0tCRHNpTkdZdHdlcGx4WDg4eVB1RUlqUy8wWk5kSFowQXJrcz0tLURaMU5NcUJMOERDQ1pnNkZwcTM3bGc9PQ==--761e47cbb39133df6ee49bbb87b2f53c6c5ef579
 [service]: https://github.com/niksy/advertol/docs/service.md
 [control]: https://github.com/niksy/advertol/docs/control.md
 [context]: https://github.com/niksy/advertol/docs/context.md
