@@ -1,6 +1,6 @@
 {
   "name": "@advertol/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advertisement zones manager.",
   "main": "index.cjs.js",
   "module": "index.esm.js",
