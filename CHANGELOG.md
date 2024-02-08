@@ -2,6 +2,10 @@
 
 ## [Unreleased][]
 
+### Changed
+
+- Upgrade dependencies
+
 ## [1.0.1][] - 2024-02-08
 
 ### Fixed
