@@ -32,7 +32,7 @@ function setup ( options = {} ) {
 		}
 		async onInitialControlTrigger (...args) {
 			onInitialControlTriggerSpy(...args);
-			return {};
+			return {instance: 'becky'};
 		}
 		onZoneShow ( ...args ) {
 			onZoneShowSpy(...args);
@@ -448,7 +448,7 @@ describe('ControlResolver', function () {
 		assert.equal(onZoneShowSpy.callCount, 1);
 		assert.equal(destroySpyArgs.element, element);
 		assert.equal(destroySpyArgs.id, id);
-		assert.equal(destroySpyArgs.initialControlTriggerResult instanceof Promise, true);
+		assert.equal(destroySpyArgs.initialControlTriggerResult.instance === 'becky', true);
 
 		teardown();
 

@@ -2,6 +2,10 @@
 
 ## [Unreleased][]
 
+### Fixed
+
+- Resolve initial control trigger result when destroying control resolver
+
 ## [1.0.0][] - 2019-04-01
 
 ### Added
