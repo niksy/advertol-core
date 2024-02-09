@@ -442,13 +442,14 @@ describe('ControlResolver', function () {
 
 		await controlResolver.resolve(zone);
 
+		assert.equal(onZoneHideSpy.callCount, 0);
+		assert.equal(onZoneShowSpy.callCount, 1);
+
 		// Wait for next tick since destroy calls are dependant on resolve results
 		await setTimeoutAsPromise(0);
 
 		const destroySpyArgs = destroySpy.firstCall.args[0];
 
-		assert.equal(onZoneHideSpy.callCount, 0);
-		assert.equal(onZoneShowSpy.callCount, 1);
 		assert.equal(destroySpyArgs.element, element);
 		assert.equal(destroySpyArgs.id, id);
 		assert.equal(destroySpyArgs.initialControlTriggerResult.instance === 'becky', true);

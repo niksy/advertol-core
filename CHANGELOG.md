@@ -2,6 +2,10 @@
 
 ## [Unreleased][]
 
+### Changed
+
+- Update check when control should be triggered for specific zone
+
 ## [1.0.3][] - 2024-02-08
 
 ### Fixed
